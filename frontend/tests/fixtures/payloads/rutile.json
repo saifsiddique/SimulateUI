@@ -1,0 +1,78 @@
+{
+ "rawCif": "#------------------------------------------------------------------------------\n#$Date: 2024-04-25 17:59:02 +0300 (Thu, 25 Apr 2024) $\n#$Revision: 291351 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/41/9004141.cif $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/. The original data for this entry\n# were provided the American Mineralogist Crystal Structure Database,\n# http://rruff.geo.arizona.edu/AMS/amcsd.php\n#\n# The file may be used within the scientific community so long as\n# proper attribution is given to the journal article from which the\n# data were obtained.\n#\ndata_9004141\nloop_\n_publ_author_name\n'Meagher, E. P.'\n'Lager, G. A.'\n_publ_section_title\n;\n Polyhedral thermal expansion in the TiO2 polymorphs: Refinement\n of the crystal structure of rutile and brookite at high temperature\n Sample at 25 degrees C\n;\n_journal_name_full               'The Canadian Mineralogist'\n_journal_page_first              77\n_journal_page_last               85\n_journal_volume                  17\n_journal_year                    1979\n_chemical_formula_sum            'O2 Ti'\n_chemical_name_mineral           Rutile\n_space_group_IT_number           136\n_symmetry_space_group_name_Hall  '-P 4n 2n'\n_symmetry_space_group_name_H-M   'P 42/m n m'\n_cell_angle_alpha                90\n_cell_angle_beta                 90\n_cell_angle_gamma                90\n_cell_length_a                   4.593\n_cell_length_b                   4.593\n_cell_length_c                   2.959\n_cell_formula_units_Z            2\n_cell_volume                     62.422\n_database_code_amcsd             0005164\n_exptl_crystal_density_diffrn    4.250\n_cod_original_formula_sum        'Ti O2'\n_cod_database_code               9004141\nloop_\n_space_group_symop_operation_xyz\nx,y,z\n-y,-x,z\ny,x,-z\n1/2+y,1/2-x,1/2-z\n1/2-y,1/2+x,1/2+z\n1/2+x,1/2-y,1/2+z\n1/2-x,1/2+y,1/2-z\nx,y,-z\n-x,-y,z\ny,x,z\n-y,-x,-z\n1/2-y,1/2+x,1/2-z\n1/2+y,1/2-x,1/2+z\n1/2-x,1/2+y,1/2+z\n1/2+x,1/2-y,1/2-z\n-x,-y,-z\nloop_\n_atom_site_aniso_label\n_atom_site_aniso_U_11\n_atom_site_aniso_U_22\n_atom_site_aniso_U_33\n_atom_site_aniso_U_12\n_atom_site_aniso_U_13\n_atom_site_aniso_U_23\nTi 0.00695 0.00695 0.00204 -0.00011 0.00000 0.00000\nO 0.00823 0.00823 0.00435 -0.00150 0.00000 0.00000\nloop_\n_atom_site_label\n_atom_site_fract_x\n_atom_site_fract_y\n_atom_site_fract_z\n_atom_site_U_iso_or_equiv\nTi 0.00000 0.00000 0.00000 0.00532\nO 0.30510 0.30510 0.00000 0.00760\nloop_\n_cod_related_entry_id\n_cod_related_entry_database\n_cod_related_entry_code\n1 ChemSpider 142802\n2 AMCSD 0005164\n",
+ "fileName": "rutile.cif",
+ "cell": {
+  "a": 4.593,
+  "b": 4.593,
+  "c": 2.959,
+  "alpha": 90,
+  "beta": 90,
+  "gamma": 90
+ },
+ "atoms": [
+  {
+   "element": "Ti",
+   "frac": [
+    0,
+    0,
+    0
+   ],
+   "occupancy": 1,
+   "uiso": 0.00532
+  },
+  {
+   "element": "Ti",
+   "frac": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "occupancy": 1,
+   "uiso": 0.00532
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.3051,
+    0.3051,
+    0
+   ],
+   "occupancy": 1,
+   "uiso": 0.0076
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.6949000000000001,
+    0.6949000000000001,
+    0
+   ],
+   "occupancy": 1,
+   "uiso": 0.0076
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.8050999999999999,
+    0.19490000000000002,
+    0.5
+   ],
+   "occupancy": 1,
+   "uiso": 0.0076
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.19490000000000002,
+    0.8050999999999999,
+    0.5
+   ],
+   "occupancy": 1,
+   "uiso": 0.0076
+  }
+ ],
+ "spaceGroup": {
+  "number": 136,
+  "symbol": "P4_2/mnm"
+ }
+}

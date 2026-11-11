@@ -1,0 +1,138 @@
+{
+ "rawCif": "#------------------------------------------------------------------------------\n#$Date: 2024-05-02 13:48:35 +0300 (Thu, 02 May 2024) $\n#$Revision: 291455 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/74/9007485.cif $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/. The original data for this entry\n# were provided the American Mineralogist Crystal Structure Database,\n# http://rruff.geo.arizona.edu/AMS/amcsd.php\n#\n# The file may be used within the scientific community so long as\n# proper attribution is given to the journal article from which the\n# data were obtained.\n#\ndata_9007485\nloop_\n_publ_author_name\n'Smith, D. K.'\n'Newkirk, H. W.'\n_publ_section_title\n;\n The crystal structure of baddeleyite (monoclinic ZrO2)\n and its relation to the polymorphism of ZrO2\n;\n_journal_name_full               'Acta Crystallographica'\n_journal_page_first              983\n_journal_page_last               991\n_journal_paper_doi               10.1107/S0365110X65002402\n_journal_volume                  18\n_journal_year                    1965\n_chemical_formula_sum            'O2 Zr'\n_chemical_name_mineral           Baddeleyite\n_space_group_IT_number           14\n_symmetry_space_group_name_Hall  '-P 2ybc'\n_symmetry_space_group_name_H-M   'P 1 21/c 1'\n_cell_angle_alpha                90\n_cell_angle_beta                 99.23\n_cell_angle_gamma                90\n_cell_length_a                   5.145\n_cell_length_b                   5.2075\n_cell_length_c                   5.3107\n_cell_formula_units_Z            4\n_cell_volume                     140.445\n_database_code_amcsd             0009296\n_exptl_crystal_density_diffrn    5.828\n_cod_original_formula_sum        'Zr O2'\n_cod_database_code               9007485\nloop_\n_space_group_symop_operation_xyz\nx,y,z\nx,1/2-y,1/2+z\n-x,1/2+y,1/2-z\n-x,-y,-z\nloop_\n_atom_site_aniso_label\n_atom_site_aniso_U_11\n_atom_site_aniso_U_22\n_atom_site_aniso_U_33\n_atom_site_aniso_U_12\n_atom_site_aniso_U_13\n_atom_site_aniso_U_23\nZr 0.00379 -0.00110 0.00181 -0.00040 0.00216 0.00041\nO1 0.01280 0.00330 0.00529 0.00375 -0.00256 -0.00622\nO2 0.01333 0.00343 0.00237 0.00174 0.00270 0.00097\nloop_\n_atom_site_label\n_atom_site_fract_x\n_atom_site_fract_y\n_atom_site_fract_z\n_atom_site_U_iso_or_equiv\nZr 0.27580 0.04110 0.20820 0.00384\nO1 0.07030 0.33590 0.34060 0.00401\nO2 0.44230 0.75490 0.47890 0.00290\nloop_\n_cod_related_entry_id\n_cod_related_entry_database\n_cod_related_entry_code\n1 ChemSpider 4955305\n2 AMCSD 0009296\n",
+ "fileName": "ZrO2_baddeleyite.cif",
+ "cell": {
+  "a": 5.145,
+  "b": 5.2075,
+  "c": 5.3107,
+  "alpha": 90,
+  "beta": 99.23,
+  "gamma": 90
+ },
+ "atoms": [
+  {
+   "element": "Zr",
+   "frac": [
+    0.2758,
+    0.0411,
+    0.2082
+   ],
+   "occupancy": 1,
+   "uiso": 0.00384
+  },
+  {
+   "element": "Zr",
+   "frac": [
+    0.2758,
+    0.4589,
+    0.7081999999999999
+   ],
+   "occupancy": 1,
+   "uiso": 0.00384
+  },
+  {
+   "element": "Zr",
+   "frac": [
+    0.7242,
+    0.5411,
+    0.2918
+   ],
+   "occupancy": 1,
+   "uiso": 0.00384
+  },
+  {
+   "element": "Zr",
+   "frac": [
+    0.7242,
+    0.9589,
+    0.7918000000000001
+   ],
+   "occupancy": 1,
+   "uiso": 0.00384
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.0703,
+    0.3359,
+    0.3406
+   ],
+   "occupancy": 1,
+   "uiso": 0.00401
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.0703,
+    0.16410000000000002,
+    0.8406
+   ],
+   "occupancy": 1,
+   "uiso": 0.00401
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.9297,
+    0.8359,
+    0.1594
+   ],
+   "occupancy": 1,
+   "uiso": 0.00401
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.9297,
+    0.6641,
+    0.6594
+   ],
+   "occupancy": 1,
+   "uiso": 0.00401
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.4423,
+    0.7549,
+    0.4789
+   ],
+   "occupancy": 1,
+   "uiso": 0.0029
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.4423,
+    0.7451,
+    0.9789
+   ],
+   "occupancy": 1,
+   "uiso": 0.0029
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.5577,
+    0.2549000000000001,
+    0.021100000000000008
+   ],
+   "occupancy": 1,
+   "uiso": 0.0029
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.5577,
+    0.24509999999999998,
+    0.5211
+   ],
+   "occupancy": 1,
+   "uiso": 0.0029
+  }
+ ],
+ "spaceGroup": {
+  "number": 14,
+  "symbol": "P2_1/c"
+ }
+}

@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 2,
+  "app": "SimulateUI",
+  "name": "Si.cif",
+  "structure": {
+    "fileName": "Si.cif",
+    "rawCif": "#------------------------------------------------------------------------------\n#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $\n#$Revision: 291735 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/85/9008565.cif $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/. The original data for this entry\n# were provided the American Mineralogist Crystal Structure Database,\n# http://rruff.geo.arizona.edu/AMS/amcsd.php\n#\n# The file may be used within the scientific community so long as\n# proper attribution is given to the journal article from which the\n# data were obtained.\n#\ndata_9008565\nloop_\n_publ_author_name\n'Wyckoff, R. W. G.'\n_publ_section_title\n;\n Second edition. Interscience Publishers, New York, New York\n Sample at T = 300 K\n;\n_journal_name_full               'Crystal Structures'\n_journal_page_first              7\n_journal_page_last               83\n_journal_volume                  1\n_journal_year                    1963\n_chemical_formula_sum            Si\n_chemical_name_common            Silicon\n_chemical_name_mineral           Silicon\n_space_group_IT_number           227\n_symmetry_space_group_name_Hall  'F 4d 2 3 -1d'\n_symmetry_space_group_name_H-M   'F d -3 m :1'\n_cell_angle_alpha                90\n_cell_angle_beta                 90\n_cell_angle_gamma                90\n_cell_length_a                   5.43070\n_cell_length_b                   5.43070\n_cell_length_c                   5.43070\n_cell_formula_units_Z            8\n_cell_volume                     160.165\n_database_code_amcsd             0011243\n_diffrn_ambient_temperature      300\n_exptl_crystal_density_diffrn    2.329\n_cod_original_sg_symbol_H-M      'F d 3 m'\n_cod_database_code               9008565\nloop_\n_space_group_symop_operation_xyz\nx,y,z\nx,1/2+y,1/2+z\n1/2+x,y,1/2+z\n1/2+x,1/2+y,z\n3/4+z,3/4-x,1/4+y\n3/4+z,1/4-x,3/4+y\n1/4+z,3/4-x,3/4+y\n1/4+z,1/4-x,1/4+y\n-y,1/2+z,1/2-x\n-y,+z,-x\n1/2-y,1/2+z,-x\n1/2-y,+z,1/2-x\n3/4+x,3/4-y,1/4+z\n3/4+x,1/4-y,3/4+z\n1/4+x,3/4-y,3/4+z\n1/4+x,1/4-y,1/4+z\n-z,1/2+x,1/2-y\n-z,+x,-y\n1/2-z,1/2+x,-y\n1/2-z,+x,1/2-y\n3/4+y,3/4-z,1/4+x\n3/4+y,1/4-z,3/4+x\n1/4+y,3/4-z,3/4+x\n1/4+y,1/4-z,1/4+x\n-x,1/2+y,1/2-z\n-x,+y,-z\n1/2-x,1/2+y,-z\n1/2-x,+y,1/2-z\n1/2+x,-z,1/2-y\n1/2+x,1/2-z,-y\n+x,-z,-y\n+x,1/2-z,1/2-y\n3/4-z,3/4+y,1/4+x\n3/4-z,1/4+y,3/4+x\n1/4-z,3/4+y,3/4+x\n1/4-z,1/4+y,1/4+x\n1/2+y,-x,1/2-z\n1/2+y,1/2-x,-z\n+y,-x,-z\n+y,1/2-x,1/2-z\n3/4-x,3/4+z,1/4+y\n3/4-x,1/4+z,3/4+y\n1/4-x,3/4+z,3/4+y\n1/4-x,1/4+z,1/4+y\n1/2+z,-y,1/2-x\n1/2+z,1/2-y,-x\n+z,-y,-x\n+z,1/2-y,1/2-x\n3/4-y,3/4+x,1/4+z\n3/4-y,1/4+x,3/4+z\n1/4-y,3/4+x,3/4+z\n1/4-y,1/4+x,1/4+z\nx,1/2+z,1/2+y\nx,+z,+y\n1/2+x,1/2+z,+y\n1/2+x,+z,1/2+y\n1/4-z,3/4-y,3/4-x\n1/4-z,1/4-y,1/4-x\n3/4-z,3/4-y,1/4-x\n3/4-z,1/4-y,3/4-x\ny,1/2+x,1/2+z\ny,+x,+z\n1/2+y,1/2+x,+z\n1/2+y,+x,1/2+z\n1/4-x,3/4-z,3/4-y\n1/4-x,1/4-z,1/4-y\n3/4-x,3/4-z,1/4-y\n3/4-x,1/4-z,3/4-y\nz,1/2+y,1/2+x\nz,+y,+x\n1/2+z,1/2+y,+x\n1/2+z,+y,1/2+x\n1/4-y,3/4-x,3/4-z\n1/4-y,1/4-x,1/4-z\n3/4-y,3/4-x,1/4-z\n3/4-y,1/4-x,3/4-z\n3/4+z,1/4+x,3/4-y\n3/4+z,3/4+x,1/4-y\n1/4+z,1/4+x,1/4-y\n1/4+z,3/4+x,3/4-y\n-y,1/2-z,1/2+x\n-y,-z,+x\n1/2-y,1/2-z,+x\n1/2-y,-z,1/2+x\n3/4+x,1/4+y,3/4-z\n3/4+x,3/4+y,1/4-z\n1/4+x,1/4+y,1/4-z\n1/4+x,3/4+y,3/4-z\n-z,1/2-x,1/2+y\n-z,-x,+y\n1/2-z,1/2-x,+y\n1/2-z,-x,1/2+y\n3/4+y,1/4+z,3/4-x\n3/4+y,3/4+z,1/4-x\n1/4+y,1/4+z,1/4-x\n1/4+y,3/4+z,3/4-x\n-x,1/2-y,1/2+z\n-x,-y,+z\n1/2-x,1/2-y,+z\n1/2-x,-y,1/2+z\n1/4-z,3/4+x,3/4+y\n1/4-z,1/4+x,1/4+y\n3/4-z,3/4+x,1/4+y\n3/4-z,1/4+x,3/4+y\ny,-z,-x\ny,1/2-z,1/2-x\n1/2+y,-z,1/2-x\n1/2+y,1/2-z,-x\n1/4-x,3/4+y,3/4+z\n1/4-x,1/4+y,1/4+z\n3/4-x,3/4+y,1/4+z\n3/4-x,1/4+y,3/4+z\nz,-x,-y\nz,1/2-x,1/2-y\n1/2+z,-x,1/2-y\n1/2+z,1/2-x,-y\n1/4-y,3/4+z,3/4+x\n1/4-y,1/4+z,1/4+x\n3/4-y,3/4+z,1/4+x\n3/4-y,1/4+z,3/4+x\nx,-y,-z\nx,1/2-y,1/2-z\n1/2+x,-y,1/2-z\n1/2+x,1/2-y,-z\n1/2-x,1/2+z,-y\n1/2-x,+z,1/2-y\n-x,1/2+z,1/2-y\n-x,+z,-y\n1/4+z,3/4-y,3/4+x\n1/4+z,1/4-y,1/4+x\n3/4+z,3/4-y,1/4+x\n3/4+z,1/4-y,3/4+x\n1/2-y,1/2+x,-z\n1/2-y,+x,1/2-z\n-y,1/2+x,1/2-z\n-y,+x,-z\n1/4+x,3/4-z,3/4+y\n1/4+x,1/4-z,1/4+y\n3/4+x,3/4-z,1/4+y\n3/4+x,1/4-z,3/4+y\n1/2-z,1/2+y,-x\n1/2-z,+y,1/2-x\n-z,1/2+y,1/2-x\n-z,+y,-x\n1/4+y,3/4-x,3/4+z\n1/4+y,1/4-x,1/4+z\n3/4+y,3/4-x,1/4+z\n3/4+y,1/4-x,3/4+z\n-x,-z,y\n-x,1/2-z,1/2+y\n1/2-x,-z,1/2+y\n1/2-x,1/2-z,y\n3/4+z,3/4+y,1/4-x\n3/4+z,1/4+y,3/4-x\n1/4+z,3/4+y,3/4-x\n1/4+z,1/4+y,1/4-x\n-y,-x,z\n-y,1/2-x,1/2+z\n1/2-y,-x,1/2+z\n1/2-y,1/2-x,z\n3/4+x,3/4+z,1/4-y\n3/4+x,1/4+z,3/4-y\n1/4+x,3/4+z,3/4-y\n1/4+x,1/4+z,1/4-y\n-z,-y,x\n-z,1/2-y,1/2+x\n1/2-z,-y,1/2+x\n1/2-z,1/2-y,x\n3/4+y,3/4+x,1/4-z\n3/4+y,1/4+x,3/4-z\n1/4+y,3/4+x,3/4-z\n1/4+y,1/4+x,1/4-z\n1/4-z,1/4-x,1/4-y\n1/4-z,3/4-x,3/4-y\n3/4-z,1/4-x,3/4-y\n3/4-z,3/4-x,1/4-y\ny,z,x\ny,1/2+z,1/2+x\n1/2+y,z,1/2+x\n1/2+y,1/2+z,x\n1/4-x,1/4-y,1/4-z\n1/4-x,3/4-y,3/4-z\n3/4-x,1/4-y,3/4-z\n3/4-x,3/4-y,1/4-z\nz,x,y\nz,1/2+x,1/2+y\n1/2+z,x,1/2+y\n1/2+z,1/2+x,y\n1/4-y,1/4-z,1/4-x\n1/4-y,3/4-z,3/4-x\n3/4-y,1/4-z,3/4-x\n3/4-y,3/4-z,1/4-x\nloop_\n_atom_site_label\n_atom_site_fract_x\n_atom_site_fract_y\n_atom_site_fract_z\nSi 0.00000 0.00000 0.00000\nloop_\n_cod_related_entry_id\n_cod_related_entry_database\n_cod_related_entry_code\n1 MPOD 1000059\n2 AMCSD 0011243\n"
+  },
+  "tab": "simulation",
+  "ortho": {
+    "mode": "auto",
+    "maxRepetitions": 5,
+    "strainTolerance": 0.01
+  },
+  "specimen": {
+    "params": {
+      "zoneAxis": [
+        1,
+        1,
+        0
+      ],
+      "yDirection": [
+        0,
+        0,
+        1
+      ],
+      "center": "cell",
+      "lateral": [
+        40,
+        40
+      ],
+      "thickness": 100,
+      "repeats": [
+        2,
+        2,
+        4
+      ],
+      "vacuum": [
+        0,
+        0
+      ],
+      "strainTolerance": 0.002,
+      "maxRepeatAtoms": 2000,
+      "maxLength": 100,
+      "occupancy": "dominant",
+      "seed": 0,
+      "method": "search",
+      "abtemRepetitions": 5,
+      "supercell": null,
+      "compareAbtem": false
+    },
+    "built": true,
+    "builtParams": null,
+    "specimenId": "36b2eb761802af0f"
+  },
+  "simulation": {
+    "method": "multislice",
+    "ms": {
+      "type": "cbed",
+      "energy": 300,
+      "sampling": 0.04,
+      "slice": 1,
+      "alpha": 30,
+      "defocus": 0,
+      "ab": {
+        "C12": 0,
+        "phi12": 0,
+        "C21": 0,
+        "phi21": 0,
+        "C23": 0,
+        "phi23": 0,
+        "C30": 0,
+        "C32": 0,
+        "phi32": 0,
+        "C34": 0,
+        "phi34": 0,
+        "C41": 0,
+        "phi41": 0,
+        "C43": 0,
+        "phi43": 0,
+        "C45": 0,
+        "phi45": 0,
+        "C50": 0,
+        "C52": 0,
+        "phi52": 0,
+        "C54": 0,
+        "phi54": 0,
+        "C56": 0,
+        "phi56": 0
+      },
+      "aperture": 0,
+      "scanStep": 0,
+      "pattern": 128,
+      "binning": 1,
+      "phonons": 10,
+      "phononsOn": false,
+      "series": {
+        "thickness": {
+          "on": false,
+          "start": 50,
+          "stop": 200,
+          "step": 50
+        },
+        "defocus": {
+          "on": false,
+          "start": -100,
+          "stop": 100,
+          "step": 50
+        },
+        "tilt": {
+          "on": false,
+          "x": {
+            "start": 0,
+            "stop": 10,
+            "step": 2
+          },
+          "y": {
+            "start": 0,
+            "stop": 0,
+            "step": 0
+          },
+          "mode": "line"
+        }
+      },
+      "detectors": [
+        {
+          "name": "BF",
+          "inner": 0,
+          "outer": 30
+        },
+        {
+          "name": "HAADF",
+          "inner": 75,
+          "outer": 150
+        }
+      ],
+      "scanFov": {
+        "x0": 3.840084796589784,
+        "y0": 2.71535,
+        "w": 7.680169593179568,
+        "h": 5.4307
+      }
+    },
+    "bloch": {
+      "type": "saed",
+      "alpha": 5,
+      "kMax": 2,
+      "sgMax": 0.02,
+      "pixel": 0.02,
+      "thickness": 200,
+      "series": {
+        "on": false,
+        "start": 100,
+        "stop": 400,
+        "step": 100
+      },
+      "thermalOn": false
+    },
+    "incostem": {
+      "alpha": 30,
+      "defocus": 0,
+      "ab": {
+        "C12": 0,
+        "phi12": 0,
+        "C21": 0,
+        "phi21": 0,
+        "C23": 0,
+        "phi23": 0,
+        "C30": 0,
+        "C32": 0,
+        "phi32": 0,
+        "C34": 0,
+        "phi34": 0,
+        "C41": 0,
+        "phi41": 0,
+        "C43": 0,
+        "phi43": 0,
+        "C45": 0,
+        "phi45": 0,
+        "C50": 0,
+        "C52": 0,
+        "phi52": 0,
+        "C54": 0,
+        "phi54": 0,
+        "C56": 0,
+        "phi56": 0
+      },
+      "source": 0,
+      "dfSpread": 0,
+      "adf": {
+        "inner": 80,
+        "outer": 200
+      },
+      "parametrization": "kirkland",
+      "pixel": 0.1,
+      "fov": null,
+      "noiseOn": false,
+      "current": 20,
+      "dwell": 10,
+      "seed": 1
+    },
+    "sigmas": {}
+  }
+}

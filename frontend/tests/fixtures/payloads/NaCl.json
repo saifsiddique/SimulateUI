@@ -1,0 +1,90 @@
+{
+ "rawCif": "#------------------------------------------------------------------------------\n#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $\n#$Revision: 130149 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/00/00/1000041.cif $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/\n#\n# All data on this site have been placed in the public domain by the\n# contributors.\n#\ndata_1000041\nloop_\n_publ_author_name\n'Abrahams, S C'\n'Bernstein, J L'\n_publ_section_title\n;\nAccuracy of an automatic diffractometer. measurement of the sodium\nchloride structure factors\n;\n_journal_coden_ASTM              ACCRA9\n_journal_name_full               'Acta Crystallographica (1,1948-23,1967)'\n_journal_page_first              926\n_journal_page_last               932\n_journal_paper_doi               10.1107/S0365110X65002244\n_journal_volume                  18\n_journal_year                    1965\n_chemical_formula_structural     'Na Cl'\n_chemical_formula_sum            'Cl Na'\n_chemical_name_systematic        'Sodium chloride'\n_space_group_IT_number           225\n_symmetry_cell_setting           cubic\n_symmetry_Int_Tables_number      225\n_symmetry_space_group_name_Hall  '-F 4 2 3'\n_symmetry_space_group_name_H-M   'F m -3 m'\n_cell_angle_alpha                90\n_cell_angle_beta                 90\n_cell_angle_gamma                90\n_cell_formula_units_Z            4\n_cell_length_a                   5.62\n_cell_length_b                   5.62\n_cell_length_c                   5.62\n_cell_volume                     177.5\n_refine_ls_R_factor_all          0.022\n_cod_database_code               1000041\nloop_\n_symmetry_equiv_pos_as_xyz\nx,y,z\ny,z,x\nz,x,y\nx,z,y\ny,x,z\nz,y,x\nx,-y,-z\ny,-z,-x\nz,-x,-y\nx,-z,-y\ny,-x,-z\nz,-y,-x\n-x,y,-z\n-y,z,-x\n-z,x,-y\n-x,z,-y\n-y,x,-z\n-z,y,-x\n-x,-y,z\n-y,-z,x\n-z,-x,y\n-x,-z,y\n-y,-x,z\n-z,-y,x\n-x,-y,-z\n-y,-z,-x\n-z,-x,-y\n-x,-z,-y\n-y,-x,-z\n-z,-y,-x\n-x,y,z\n-y,z,x\n-z,x,y\n-x,z,y\n-y,x,z\n-z,y,x\nx,-y,z\ny,-z,x\nz,-x,y\nx,-z,y\ny,-x,z\nz,-y,x\nx,y,-z\ny,z,-x\nz,x,-y\nx,z,-y\ny,x,-z\nz,y,-x\nx,1/2+y,1/2+z\n1/2+x,y,1/2+z\n1/2+x,1/2+y,z\ny,1/2+z,1/2+x\n1/2+y,z,1/2+x\n1/2+y,1/2+z,x\nz,1/2+x,1/2+y\n1/2+z,x,1/2+y\n1/2+z,1/2+x,y\nx,1/2+z,1/2+y\n1/2+x,z,1/2+y\n1/2+x,1/2+z,y\ny,1/2+x,1/2+z\n1/2+y,x,1/2+z\n1/2+y,1/2+x,z\nz,1/2+y,1/2+x\n1/2+z,y,1/2+x\n1/2+z,1/2+y,x\nx,1/2-y,1/2-z\n1/2+x,-y,1/2-z\n1/2+x,1/2-y,-z\ny,1/2-z,1/2-x\n1/2+y,-z,1/2-x\n1/2+y,1/2-z,-x\nz,1/2-x,1/2-y\n1/2+z,-x,1/2-y\n1/2+z,1/2-x,-y\nx,1/2-z,1/2-y\n1/2+x,-z,1/2-y\n1/2+x,1/2-z,-y\ny,1/2-x,1/2-z\n1/2+y,-x,1/2-z\n1/2+y,1/2-x,-z\nz,1/2-y,1/2-x\n1/2+z,-y,1/2-x\n1/2+z,1/2-y,-x\n-x,1/2+y,1/2-z\n1/2-x,y,1/2-z\n1/2-x,1/2+y,-z\n-y,1/2+z,1/2-x\n1/2-y,z,1/2-x\n1/2-y,1/2+z,-x\n-z,1/2+x,1/2-y\n1/2-z,x,1/2-y\n1/2-z,1/2+x,-y\n-x,1/2+z,1/2-y\n1/2-x,z,1/2-y\n1/2-x,1/2+z,-y\n-y,1/2+x,1/2-z\n1/2-y,x,1/2-z\n1/2-y,1/2+x,-z\n-z,1/2+y,1/2-x\n1/2-z,y,1/2-x\n1/2-z,1/2+y,-x\n-x,1/2-y,1/2+z\n1/2-x,-y,1/2+z\n1/2-x,1/2-y,z\n-y,1/2-z,1/2+x\n1/2-y,-z,1/2+x\n1/2-y,1/2-z,x\n-z,1/2-x,1/2+y\n1/2-z,-x,1/2+y\n1/2-z,1/2-x,y\n-x,1/2-z,1/2+y\n1/2-x,-z,1/2+y\n1/2-x,1/2-z,y\n-y,1/2-x,1/2+z\n1/2-y,-x,1/2+z\n1/2-y,1/2-x,z\n-z,1/2-y,1/2+x\n1/2-z,-y,1/2+x\n1/2-z,1/2-y,x\n-x,1/2-y,1/2-z\n1/2-x,-y,1/2-z\n1/2-x,1/2-y,-z\n-y,1/2-z,1/2-x\n1/2-y,-z,1/2-x\n1/2-y,1/2-z,-x\n-z,1/2-x,1/2-y\n1/2-z,-x,1/2-y\n1/2-z,1/2-x,-y\n-x,1/2-z,1/2-y\n1/2-x,-z,1/2-y\n1/2-x,1/2-z,-y\n-y,1/2-x,1/2-z\n1/2-y,-x,1/2-z\n1/2-y,1/2-x,-z\n-z,1/2-y,1/2-x\n1/2-z,-y,1/2-x\n1/2-z,1/2-y,-x\n-x,1/2+y,1/2+z\n1/2-x,y,1/2+z\n1/2-x,1/2+y,z\n-y,1/2+z,1/2+x\n1/2-y,z,1/2+x\n1/2-y,1/2+z,x\n-z,1/2+x,1/2+y\n1/2-z,x,1/2+y\n1/2-z,1/2+x,y\n-x,1/2+z,1/2+y\n1/2-x,z,1/2+y\n1/2-x,1/2+z,y\n-y,1/2+x,1/2+z\n1/2-y,x,1/2+z\n1/2-y,1/2+x,z\n-z,1/2+y,1/2+x\n1/2-z,y,1/2+x\n1/2-z,1/2+y,x\nx,1/2-y,1/2+z\n1/2+x,-y,1/2+z\n1/2+x,1/2-y,z\ny,1/2-z,1/2+x\n1/2+y,-z,1/2+x\n1/2+y,1/2-z,x\nz,1/2-x,1/2+y\n1/2+z,-x,1/2+y\n1/2+z,1/2-x,y\nx,1/2-z,1/2+y\n1/2+x,-z,1/2+y\n1/2+x,1/2-z,y\ny,1/2-x,1/2+z\n1/2+y,-x,1/2+z\n1/2+y,1/2-x,z\nz,1/2-y,1/2+x\n1/2+z,-y,1/2+x\n1/2+z,1/2-y,x\nx,1/2+y,1/2-z\n1/2+x,y,1/2-z\n1/2+x,1/2+y,-z\ny,1/2+z,1/2-x\n1/2+y,z,1/2-x\n1/2+y,1/2+z,-x\nz,1/2+x,1/2-y\n1/2+z,x,1/2-y\n1/2+z,1/2+x,-y\nx,1/2+z,1/2-y\n1/2+x,z,1/2-y\n1/2+x,1/2+z,-y\ny,1/2+x,1/2-z\n1/2+y,x,1/2-z\n1/2+y,1/2+x,-z\nz,1/2+y,1/2-x\n1/2+z,y,1/2-x\n1/2+z,1/2+y,-x\nloop_\n_atom_site_label\n_atom_site_type_symbol\n_atom_site_symmetry_multiplicity\n_atom_site_Wyckoff_symbol\n_atom_site_fract_x\n_atom_site_fract_y\n_atom_site_fract_z\n_atom_site_occupancy\n_atom_site_attached_hydrogens\n_atom_site_calc_flag\nNa1 Na1+ 4 a 0. 0. 0. 1. 0 d\nCl1 Cl1- 4 b 0.5 0.5 0.5 1. 0 d\nloop_\n_atom_type_symbol\n_atom_type_oxidation_number\nNa1+ 1.000\nCl1- -1.000\n",
+ "fileName": "NaCl.cif",
+ "cell": {
+  "a": 5.62,
+  "b": 5.62,
+  "c": 5.62,
+  "alpha": 90,
+  "beta": 90,
+  "gamma": 90
+ },
+ "atoms": [
+  {
+   "element": "Na",
+   "frac": [
+    0,
+    0,
+    0
+   ],
+   "occupancy": 1
+  },
+  {
+   "element": "Na",
+   "frac": [
+    0,
+    0.5,
+    0.5
+   ],
+   "occupancy": 1
+  },
+  {
+   "element": "Na",
+   "frac": [
+    0.5,
+    0,
+    0.5
+   ],
+   "occupancy": 1
+  },
+  {
+   "element": "Na",
+   "frac": [
+    0.5,
+    0.5,
+    0
+   ],
+   "occupancy": 1
+  },
+  {
+   "element": "Cl",
+   "frac": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "occupancy": 1
+  },
+  {
+   "element": "Cl",
+   "frac": [
+    0.5,
+    0,
+    0
+   ],
+   "occupancy": 1
+  },
+  {
+   "element": "Cl",
+   "frac": [
+    0,
+    0.5,
+    0
+   ],
+   "occupancy": 1
+  },
+  {
+   "element": "Cl",
+   "frac": [
+    0,
+    0,
+    0.5
+   ],
+   "occupancy": 1
+  }
+ ],
+ "spaceGroup": {
+  "number": 225,
+  "symbol": "Fm-3m"
+ }
+}

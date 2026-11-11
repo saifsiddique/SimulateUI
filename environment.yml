@@ -1,0 +1,32 @@
+# SimulateUI environment, CPU only: works on Windows, macOS (Apple silicon and Intel) and Linux.
+# For an NVIDIA GPU use environment-cuda.yml instead (the same packages plus CUDA and cupy).
+#     conda env create -f environment.yml
+#     conda activate em-sim
+name: em-sim
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.16
+  - numpy=2.5.4
+  - abtem=1.0.11  # multislice and Bloch wave (abtem.bloch)
+  - ase=3.29.0
+  - pymatgen=2026.9.24
+  - scipy=1.17.1
+  - pandas=3.1.0
+  - numba=0.68.0
+  - threadpoolctl=3.7.0
+  - dask=2026.8.0
+  - distributed=2026.8.0
+  - zarr=3.4.1
+  - numcodecs=0.17.1
+  - h5py=3.16.0
+  - tifffile=2026.10.15
+  - imagecodecs=2026.8.16
+  - psutil=7.2.2
+  - fastapi=0.162.0
+  - uvicorn=0.54.0
+  - pydantic=2.14.1
+  - python-multipart=0.0.32
+  - httpx=0.28.1
+  - pytest=9.1.1
+  - nodejs=24.22.1

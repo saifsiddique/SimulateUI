@@ -1,0 +1,20 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+projects/
+test-results/
+playwright-report/
+frontend/tests/cod_sample/
+
+# working notes, kept locally only
+context.md
+TESTING.md
+
+# editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.claude/

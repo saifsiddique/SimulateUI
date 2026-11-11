@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 2,
+  "app": "SimulateUI",
+  "name": "Au.cif",
+  "structure": {
+    "fileName": "Au.cif",
+    "rawCif": "# Gold, fcc, written for the SimulateUI examples. a = 4.0782 Å (room temperature).\n# The four atoms of the conventional cell are listed in P1.\ndata_Au\n_chemical_name_common 'Gold'\n_chemical_formula_sum 'Au'\n_cell_length_a 4.0782\n_cell_length_b 4.0782\n_cell_length_c 4.0782\n_cell_angle_alpha 90\n_cell_angle_beta 90\n_cell_angle_gamma 90\n_space_group_name_H-M_alt 'P 1'\n_space_group_IT_number 1\nloop_\n_space_group_symop_operation_xyz\n'x, y, z'\nloop_\n_atom_site_label\n_atom_site_type_symbol\n_atom_site_fract_x\n_atom_site_fract_y\n_atom_site_fract_z\n_atom_site_occupancy\n_atom_site_U_iso_or_equiv\nAu1 Au 0.0 0.0 0.0 1.0 0.0078\nAu2 Au 0.5 0.5 0.0 1.0 0.0078\nAu3 Au 0.5 0.0 0.5 1.0 0.0078\nAu4 Au 0.0 0.5 0.5 1.0 0.0078\n"
+  },
+  "tab": "simulation",
+  "ortho": {
+    "mode": "auto",
+    "maxRepetitions": 5,
+    "strainTolerance": 0.01
+  },
+  "specimen": {
+    "params": {
+      "zoneAxis": [
+        1,
+        1,
+        0
+      ],
+      "yDirection": [
+        0,
+        0,
+        1
+      ],
+      "center": "cell",
+      "lateral": [
+        40,
+        40
+      ],
+      "thickness": 100,
+      "repeats": [
+        2,
+        2,
+        4
+      ],
+      "vacuum": [
+        0,
+        0
+      ],
+      "strainTolerance": 0.002,
+      "maxRepeatAtoms": 2000,
+      "maxLength": 100,
+      "occupancy": "dominant",
+      "seed": 0,
+      "method": "search",
+      "abtemRepetitions": 5,
+      "supercell": null,
+      "compareAbtem": false
+    },
+    "built": true,
+    "builtParams": null,
+    "specimenId": "28db1df646c2cb34"
+  },
+  "simulation": {
+    "method": "multislice",
+    "ms": {
+      "type": "hrtem",
+      "energy": 300,
+      "sampling": 0.04,
+      "slice": 1,
+      "alpha": 30,
+      "defocus": 0,
+      "ab": {
+        "C12": 0,
+        "phi12": 0,
+        "C21": 0,
+        "phi21": 0,
+        "C23": 0,
+        "phi23": 0,
+        "C30": 0,
+        "C32": 0,
+        "phi32": 0,
+        "C34": 0,
+        "phi34": 0,
+        "C41": 0,
+        "phi41": 0,
+        "C43": 0,
+        "phi43": 0,
+        "C45": 0,
+        "phi45": 0,
+        "C50": 0,
+        "C52": 0,
+        "phi52": 0,
+        "C54": 0,
+        "phi54": 0,
+        "C56": 0,
+        "phi56": 0
+      },
+      "aperture": 0,
+      "scanStep": 0,
+      "pattern": 128,
+      "binning": 1,
+      "phonons": 10,
+      "phononsOn": false,
+      "series": {
+        "thickness": {
+          "on": false,
+          "start": 50,
+          "stop": 200,
+          "step": 50
+        },
+        "defocus": {
+          "on": false,
+          "start": -100,
+          "stop": 100,
+          "step": 50
+        },
+        "tilt": {
+          "on": false,
+          "x": {
+            "start": 0,
+            "stop": 10,
+            "step": 2
+          },
+          "y": {
+            "start": 0,
+            "stop": 0,
+            "step": 0
+          },
+          "mode": "line"
+        }
+      },
+      "detectors": [
+        {
+          "name": "BF",
+          "inner": 0,
+          "outer": 30
+        },
+        {
+          "name": "HAADF",
+          "inner": 75,
+          "outer": 150
+        }
+      ],
+      "scanFov": {
+        "x0": 2.8837228750349784,
+        "y0": 2.0391,
+        "w": 5.767445750069957,
+        "h": 4.0782
+      }
+    },
+    "bloch": {
+      "type": "saed",
+      "alpha": 5,
+      "kMax": 2,
+      "sgMax": 0.02,
+      "pixel": 0.02,
+      "thickness": 200,
+      "series": {
+        "on": false,
+        "start": 100,
+        "stop": 400,
+        "step": 100
+      },
+      "thermalOn": false
+    },
+    "incostem": {
+      "alpha": 30,
+      "defocus": 0,
+      "ab": {
+        "C12": 0,
+        "phi12": 0,
+        "C21": 0,
+        "phi21": 0,
+        "C23": 0,
+        "phi23": 0,
+        "C30": 0,
+        "C32": 0,
+        "phi32": 0,
+        "C34": 0,
+        "phi34": 0,
+        "C41": 0,
+        "phi41": 0,
+        "C43": 0,
+        "phi43": 0,
+        "C45": 0,
+        "phi45": 0,
+        "C50": 0,
+        "C52": 0,
+        "phi52": 0,
+        "C54": 0,
+        "phi54": 0,
+        "C56": 0,
+        "phi56": 0
+      },
+      "source": 0,
+      "dfSpread": 0,
+      "adf": {
+        "inner": 80,
+        "outer": 200
+      },
+      "parametrization": "kirkland",
+      "pixel": 0.1,
+      "fov": null,
+      "noiseOn": false,
+      "current": 20,
+      "dwell": 10,
+      "seed": 1
+    },
+    "sigmas": {}
+  }
+}

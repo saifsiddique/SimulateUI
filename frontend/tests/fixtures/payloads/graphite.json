@@ -1,0 +1,54 @@
+{
+ "rawCif": "#------------------------------------------------------------------------------\n#$Date: 2024-05-16 09:36:09 +0300 (Thu, 16 May 2024) $\n#$Revision: 291877 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/15/9011577.cif $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/. The original data for this entry\n# were provided the American Mineralogist Crystal Structure Database,\n# http://rruff.geo.arizona.edu/AMS/amcsd.php\n#\n# The file may be used within the scientific community so long as\n# proper attribution is given to the journal article from which the\n# data were obtained.\n#\ndata_9011577\nloop_\n_publ_author_name\n'Trucano, P.'\n'Chen, R.'\n_publ_section_title\n;\n Structure of graphite by neutron diffraction\n Note: natural crystals\n;\n_journal_name_full               Nature\n_journal_page_first              136\n_journal_page_last               137\n_journal_paper_doi               10.1038/258136a0\n_journal_volume                  258\n_journal_year                    1975\n_chemical_compound_source        undefined\n_chemical_formula_sum            C\n_chemical_name_mineral           Graphite\n_space_group_IT_number           194\n_symmetry_space_group_name_Hall  '-P 6c 2c'\n_symmetry_space_group_name_H-M   'P 63/m m c'\n_cell_angle_alpha                90\n_cell_angle_beta                 90\n_cell_angle_gamma                120\n_cell_length_a                   2.464\n_cell_length_b                   2.464\n_cell_length_c                   6.711\n_cell_formula_units_Z            4\n_cell_volume                     35.286\n_database_code_amcsd             0014675\n_exptl_crystal_density_diffrn    2.261\n_cod_database_code               9011577\nloop_\n_space_group_symop_operation_xyz\nx,y,z\n-x,-x+y,1/2+z\nx,x-y,1/2-z\n-x+y,-x,1/2-z\nx-y,x,1/2+z\n-y,-x,z\ny,x,-z\ny,-x+y,-z\n-y,x-y,z\nx-y,-y,1/2+z\n-x+y,y,1/2-z\nx,y,1/2-z\n-x,-y,1/2+z\nx,x-y,z\n-x,-x+y,-z\nx-y,x,-z\n-x+y,-x,z\ny,x,1/2+z\n-y,-x,1/2-z\n-y,x-y,1/2-z\ny,-x+y,1/2+z\n-x+y,y,z\nx-y,-y,-z\n-x,-y,-z\nloop_\n_atom_site_aniso_label\n_atom_site_aniso_U_11\n_atom_site_aniso_U_22\n_atom_site_aniso_U_33\n_atom_site_aniso_U_12\n_atom_site_aniso_U_13\n_atom_site_aniso_U_23\nC1 0.00310 0.00310 0.01600 0.00155 0.00000 0.00000\nC2 0.00310 0.00310 0.01700 0.00155 0.00000 0.00000\nloop_\n_atom_site_label\n_atom_site_fract_x\n_atom_site_fract_y\n_atom_site_fract_z\nC1 0.00000 0.00000 0.25000\nC2 0.33333 0.66667 0.25000\nloop_\n_cod_related_entry_id\n_cod_related_entry_database\n_cod_related_entry_code\n1 AMCSD 0014675\n",
+ "fileName": "graphite.cif",
+ "cell": {
+  "a": 2.464,
+  "b": 2.464,
+  "c": 6.711,
+  "alpha": 90,
+  "beta": 90,
+  "gamma": 120
+ },
+ "atoms": [
+  {
+   "element": "C",
+   "frac": [
+    0,
+    0,
+    0.25
+   ],
+   "occupancy": 1
+  },
+  {
+   "element": "C",
+   "frac": [
+    0,
+    0,
+    0.75
+   ],
+   "occupancy": 1
+  },
+  {
+   "element": "C",
+   "frac": [
+    0.33333,
+    0.66667,
+    0.25
+   ],
+   "occupancy": 1
+  },
+  {
+   "element": "C",
+   "frac": [
+    0.66667,
+    0.33333999999999997,
+    0.75
+   ],
+   "occupancy": 1
+  }
+ ],
+ "spaceGroup": {
+  "number": 194,
+  "symbol": "P6_3/mmc"
+ }
+}

@@ -1,0 +1,80 @@
+# Tests on Windows, macOS (Apple silicon) and Linux, on the CPU (context: M8 cross-platform check).
+# GPU tests are skipped where there is no CUDA device.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  tests:
+    name: tests (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 90
+    defaults:
+      run:
+        shell: bash -el {0}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          miniforge-version: latest
+          environment-file: environment.yml
+          activate-environment: em-sim
+          conda-remove-defaults: "true"
+      - name: Environment
+        run: |
+          python -c "import abtem, numpy; print('abtem', abtem.__version__, 'numpy', numpy.__version__)"
+          pip check
+      - name: Backend tests
+        working-directory: backend
+        run: python -m pytest -q
+      - name: Frontend checks and unit tests
+        working-directory: frontend
+        run: |
+          npm ci
+          npm run check
+          npm run lint
+          npm run format:check
+          npm test
+
+  e2e:
+    name: browser tests (ubuntu)
+    needs: tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    defaults:
+      run:
+        shell: bash -el {0}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          miniforge-version: latest
+          environment-file: environment.yml
+          activate-environment: em-sim
+          conda-remove-defaults: "true"
+      - name: Install
+        working-directory: frontend
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+      - name: Browser tests
+        working-directory: frontend
+        run: npx playwright test
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: frontend/test-results
+          retention-days: 7

@@ -1,0 +1,17 @@
+{
+  "//": "src/core must stay pure (context.md 5.3): ES2023 only, no DOM, no Node, no three.js. This config makes that a compile error.",
+  "compilerOptions": {
+    "target": "es2023",
+    "lib": ["ES2023"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "types": [],
+    "strict": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "include": ["src/core/**/*.ts"]
+}

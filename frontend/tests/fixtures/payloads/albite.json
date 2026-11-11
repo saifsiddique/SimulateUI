@@ -1,0 +1,698 @@
+{
+ "rawCif": "#------------------------------------------------------------------------------\n#$Date: 2023-05-18 12:25:40 +0300 (Thu, 18 May 2023) $\n#$Revision: 283857 $\n#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/05/9000525.cif $\n#------------------------------------------------------------------------------\n#\n# This file is available in the Crystallography Open Database (COD),\n# http://www.crystallography.net/. The original data for this entry\n# were provided the American Mineralogist Crystal Structure Database,\n# http://rruff.geo.arizona.edu/AMS/amcsd.php\n#\n# The file may be used within the scientific community so long as\n# proper attribution is given to the journal article from which the\n# data were obtained.\n#\ndata_9000525\nloop_\n_publ_author_name\n'Prewitt, C. T.'\n'Sueno, S.'\n'Papike, J. J.'\n_publ_section_title\n;\n The crystal structures of high albite and monalbite at high temperatures\n T = 24 deg C\n feldspar\n;\n_journal_name_full               'American Mineralogist'\n_journal_page_first              1213\n_journal_page_last               1225\n_journal_volume                  61\n_journal_year                    1976\n_chemical_formula_sum            'Al Na O8 Si3'\n_chemical_name_mineral           Albite\n_space_group_IT_number           2\n_symmetry_space_group_name_Hall  '-P 1 (1/2*x+1/2*y,1/2*x-1/2*y,-z)'\n_symmetry_space_group_name_H-M   'C -1'\n_cell_angle_alpha                93.521\n_cell_angle_beta                 116.458\n_cell_angle_gamma                90.257\n_cell_formula_units_Z            4\n_cell_length_a                   8.153\n_cell_length_b                   12.8694\n_cell_length_c                   7.1070\n_cell_volume                     665.910\n_diffrn_ambient_temperature      297.15\n_exptl_crystal_density_diffrn    2.616\n_cod_original_cell_volume        665.909\n_cod_original_formula_sum        'Na (Si3 Al) O8'\n_cod_database_code               9000525\nloop_\n_symmetry_equiv_pos_as_xyz\nx,y,z\n1/2+x,1/2+y,z\n-x,-y,-z\n1/2-x,1/2-y,-z\nloop_\n_atom_site_label\n_atom_site_fract_x\n_atom_site_fract_y\n_atom_site_fract_z\n_atom_site_occupancy\n_atom_site_U_iso_or_equiv\n_atom_site_type_symbol\n_atom_site_attached_hydrogens\nNa 0.27370 0.00730 0.13290 1.00000 0.09651 Na 0\nSi1o 0.00900 0.16500 0.21480 0.75000 0.00988 Si 0\nAl1o 0.00900 0.16500 0.21480 0.25000 0.00988 Al 0\nSi1m 0.00480 0.81450 0.22900 0.75000 0.00988 Si 0\nAl1m 0.00480 0.81450 0.22900 0.25000 0.00988 Al 0\nSi2o 0.69020 0.10790 0.32020 0.75000 0.01039 Si 0\nAl2o 0.69020 0.10790 0.32020 0.25000 0.01039 Al 0\nSi2m 0.68490 0.87760 0.35350 0.75000 0.01001 Si 0\nAl2m 0.68490 0.87760 0.35350 0.25000 0.01001 Al 0\nOa1 0.00550 0.13510 0.98450 1.00000 0.02052 O 0\nOa2 0.59160 0.99070 0.27830 1.00000 0.01672 O 0\nObo 0.82120 0.10840 0.19900 1.00000 0.02090 O 0\nObm 0.81840 0.84700 0.24550 1.00000 0.02394 O 0\nOco 0.01620 0.29020 0.27700 1.00000 0.01836 O 0\nOcm 0.02130 0.68730 0.21800 1.00000 0.01887 O 0\nOdo 0.19590 0.11230 0.38760 1.00000 0.01824 O 0\nOdm 0.18850 0.86750 0.42660 1.00000 0.02052 O 0\nloop_\n_cod_changelog_entry_id\n_cod_changelog_entry_author\n_cod_changelog_entry_date\n_cod_changelog_entry_text\n1\n;cod-tools version 3.8.0\nId: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius\n;\n2023-05-18T11:36:21+03:00\n;Derived atom types and hydrogen counts\nfrom atom names that follow the AMCSD naming convention\n(Wat == water, O-H == hydroxyl).\n;\n",
+ "fileName": "albite.cif",
+ "cell": {
+  "a": 8.153,
+  "b": 12.8694,
+  "c": 7.107,
+  "alpha": 93.521,
+  "beta": 116.458,
+  "gamma": 90.257
+ },
+ "atoms": [
+  {
+   "element": "Na",
+   "frac": [
+    0.2737,
+    0.0073,
+    0.1329
+   ],
+   "occupancy": 1,
+   "uiso": 0.09651
+  },
+  {
+   "element": "Na",
+   "frac": [
+    0.7737,
+    0.5073,
+    0.1329
+   ],
+   "occupancy": 1,
+   "uiso": 0.09651
+  },
+  {
+   "element": "Na",
+   "frac": [
+    0.7263,
+    0.9927,
+    0.8671
+   ],
+   "occupancy": 1,
+   "uiso": 0.09651
+  },
+  {
+   "element": "Na",
+   "frac": [
+    0.2263,
+    0.4927,
+    0.8671
+   ],
+   "occupancy": 1,
+   "uiso": 0.09651
+  },
+  {
+   "element": "Si",
+   "frac": [
+    0.009,
+    0.165,
+    0.2148
+   ],
+   "occupancy": 0.75,
+   "uiso": 0.00988
+  },
+  {
+   "element": "Si",
+   "frac": [
+    0.509,
+    0.665,
+    0.2148
+   ],
+   "occupancy": 0.75,
+   "uiso": 0.00988
+  },
+  {
+   "element": "Si",
+   "frac": [
+    0.991,
+    0.835,
+    0.7852
+   ],
+   "occupancy": 0.75,
+   "uiso": 0.00988
+  },
+  {
+   "element": "Si",
+   "frac": [
+    0.491,
+    0.33499999999999996,
+    0.7852
+   ],
+   "occupancy": 0.75,
+   "uiso": 0.00988
+  },
+  {
+   "element": "Al",
+   "frac": [
+    0.009,
+    0.165,
+    0.2148
+   ],
+   "occupancy": 0.25,
+   "uiso": 0.00988
+  },
+  {
+   "element": "Al",
+   "frac": [
+    0.509,
+    0.665,
+    0.2148
+   ],
+   "occupancy": 0.25,
+   "uiso": 0.00988
+  },
+  {
+   "element": "Al",
+   "frac": [
+    0.991,
+    0.835,
+    0.7852
+   ],
+   "occupancy": 0.25,
+   "uiso": 0.00988
+  },
+  {
+   "element": "Al",
+   "frac": [
+    0.491,
+    0.33499999999999996,
+    0.7852
+   ],
+   "occupancy": 0.25,
+   "uiso": 0.00988
+  },
+  {
+   "element": "Si",
+   "frac": [
+    0.0048,
+    0.8145,
+    0.229
+   ],
+   "occupancy": 0.75,
+   "uiso": 0.00988
+  },
+  {
+   "element": "Si",
+   "frac": [
+    0.5048,
+    0.3145,
+    0.229
+   ],
+   "occupancy": 0.75,
+   "uiso": 0.00988
+  },
+  {
+   "element": "Si",
+   "frac": [
+    0.9952,
+    0.1855,
+    0.771
+   ],
+   "occupancy": 0.75,
+   "uiso": 0.00988
+  },
+  {
+   "element": "Si",
+   "frac": [
+    0.4952,
+    0.6855,
+    0.771
+   ],
+   "occupancy": 0.75,
+   "uiso": 0.00988
+  },
+  {
+   "element": "Al",
+   "frac": [
+    0.0048,
+    0.8145,
+    0.229
+   ],
+   "occupancy": 0.25,
+   "uiso": 0.00988
+  },
+  {
+   "element": "Al",
+   "frac": [
+    0.5048,
+    0.3145,
+    0.229
+   ],
+   "occupancy": 0.25,
+   "uiso": 0.00988
+  },
+  {
+   "element": "Al",
+   "frac": [
+    0.9952,
+    0.1855,
+    0.771
+   ],
+   "occupancy": 0.25,
+   "uiso": 0.00988
+  },
+  {
+   "element": "Al",
+   "frac": [
+    0.4952,
+    0.6855,
+    0.771
+   ],
+   "occupancy": 0.25,
+   "uiso": 0.00988
+  },
+  {
+   "element": "Si",
+   "frac": [
+    0.6902,
+    0.1079,
+    0.3202
+   ],
+   "occupancy": 0.75,
+   "uiso": 0.01039
+  },
+  {
+   "element": "Si",
+   "frac": [
+    0.19019999999999992,
+    0.6079,
+    0.3202
+   ],
+   "occupancy": 0.75,
+   "uiso": 0.01039
+  },
+  {
+   "element": "Si",
+   "frac": [
+    0.30979999999999996,
+    0.8921,
+    0.6798
+   ],
+   "occupancy": 0.75,
+   "uiso": 0.01039
+  },
+  {
+   "element": "Si",
+   "frac": [
+    0.8098,
+    0.3921,
+    0.6798
+   ],
+   "occupancy": 0.75,
+   "uiso": 0.01039
+  },
+  {
+   "element": "Al",
+   "frac": [
+    0.6902,
+    0.1079,
+    0.3202
+   ],
+   "occupancy": 0.25,
+   "uiso": 0.01039
+  },
+  {
+   "element": "Al",
+   "frac": [
+    0.19019999999999992,
+    0.6079,
+    0.3202
+   ],
+   "occupancy": 0.25,
+   "uiso": 0.01039
+  },
+  {
+   "element": "Al",
+   "frac": [
+    0.30979999999999996,
+    0.8921,
+    0.6798
+   ],
+   "occupancy": 0.25,
+   "uiso": 0.01039
+  },
+  {
+   "element": "Al",
+   "frac": [
+    0.8098,
+    0.3921,
+    0.6798
+   ],
+   "occupancy": 0.25,
+   "uiso": 0.01039
+  },
+  {
+   "element": "Si",
+   "frac": [
+    0.6849,
+    0.8776,
+    0.3535
+   ],
+   "occupancy": 0.75,
+   "uiso": 0.01001
+  },
+  {
+   "element": "Si",
+   "frac": [
+    0.18489999999999984,
+    0.37760000000000016,
+    0.3535
+   ],
+   "occupancy": 0.75,
+   "uiso": 0.01001
+  },
+  {
+   "element": "Si",
+   "frac": [
+    0.31510000000000005,
+    0.12239999999999995,
+    0.6465000000000001
+   ],
+   "occupancy": 0.75,
+   "uiso": 0.01001
+  },
+  {
+   "element": "Si",
+   "frac": [
+    0.8151,
+    0.6224,
+    0.6465000000000001
+   ],
+   "occupancy": 0.75,
+   "uiso": 0.01001
+  },
+  {
+   "element": "Al",
+   "frac": [
+    0.6849,
+    0.8776,
+    0.3535
+   ],
+   "occupancy": 0.25,
+   "uiso": 0.01001
+  },
+  {
+   "element": "Al",
+   "frac": [
+    0.18489999999999984,
+    0.37760000000000016,
+    0.3535
+   ],
+   "occupancy": 0.25,
+   "uiso": 0.01001
+  },
+  {
+   "element": "Al",
+   "frac": [
+    0.31510000000000005,
+    0.12239999999999995,
+    0.6465000000000001
+   ],
+   "occupancy": 0.25,
+   "uiso": 0.01001
+  },
+  {
+   "element": "Al",
+   "frac": [
+    0.8151,
+    0.6224,
+    0.6465000000000001
+   ],
+   "occupancy": 0.25,
+   "uiso": 0.01001
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.0055,
+    0.1351,
+    0.9845
+   ],
+   "occupancy": 1,
+   "uiso": 0.02052
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.5055,
+    0.6351,
+    0.9845
+   ],
+   "occupancy": 1,
+   "uiso": 0.02052
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.9945,
+    0.8649,
+    0.015499999999999958
+   ],
+   "occupancy": 1,
+   "uiso": 0.02052
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.4945,
+    0.3649,
+    0.015499999999999958
+   ],
+   "occupancy": 1,
+   "uiso": 0.02052
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.5916,
+    0.9907,
+    0.2783
+   ],
+   "occupancy": 1,
+   "uiso": 0.01672
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.09160000000000013,
+    0.4906999999999999,
+    0.2783
+   ],
+   "occupancy": 1,
+   "uiso": 0.01672
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.4084,
+    0.009299999999999975,
+    0.7217
+   ],
+   "occupancy": 1,
+   "uiso": 0.01672
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.9084,
+    0.5093,
+    0.7217
+   ],
+   "occupancy": 1,
+   "uiso": 0.01672
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.8212,
+    0.1084,
+    0.199
+   ],
+   "occupancy": 1,
+   "uiso": 0.0209
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.32120000000000015,
+    0.6084,
+    0.199
+   ],
+   "occupancy": 1,
+   "uiso": 0.0209
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.17879999999999996,
+    0.8916,
+    0.8009999999999999
+   ],
+   "occupancy": 1,
+   "uiso": 0.0209
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.6788,
+    0.3916,
+    0.8009999999999999
+   ],
+   "occupancy": 1,
+   "uiso": 0.0209
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.8184,
+    0.847,
+    0.2455
+   ],
+   "occupancy": 1,
+   "uiso": 0.02394
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.3184,
+    0.347,
+    0.2455
+   ],
+   "occupancy": 1,
+   "uiso": 0.02394
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.18159999999999998,
+    0.15300000000000002,
+    0.7545
+   ],
+   "occupancy": 1,
+   "uiso": 0.02394
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.6816,
+    0.653,
+    0.7545
+   ],
+   "occupancy": 1,
+   "uiso": 0.02394
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.0162,
+    0.2902,
+    0.277
+   ],
+   "occupancy": 1,
+   "uiso": 0.01836
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.5162,
+    0.7902,
+    0.277
+   ],
+   "occupancy": 1,
+   "uiso": 0.01836
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.9838,
+    0.7098,
+    0.723
+   ],
+   "occupancy": 1,
+   "uiso": 0.01836
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.4838,
+    0.2098,
+    0.723
+   ],
+   "occupancy": 1,
+   "uiso": 0.01836
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.0213,
+    0.6873,
+    0.218
+   ],
+   "occupancy": 1,
+   "uiso": 0.01887
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.5213,
+    0.18730000000000002,
+    0.218
+   ],
+   "occupancy": 1,
+   "uiso": 0.01887
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.9787,
+    0.3127,
+    0.782
+   ],
+   "occupancy": 1,
+   "uiso": 0.01887
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.4787,
+    0.8127,
+    0.782
+   ],
+   "occupancy": 1,
+   "uiso": 0.01887
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.1959,
+    0.1123,
+    0.3876
+   ],
+   "occupancy": 1,
+   "uiso": 0.01824
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.6959,
+    0.6123,
+    0.3876
+   ],
+   "occupancy": 1,
+   "uiso": 0.01824
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.8041,
+    0.8877,
+    0.6124
+   ],
+   "occupancy": 1,
+   "uiso": 0.01824
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.30410000000000004,
+    0.3877,
+    0.6124
+   ],
+   "occupancy": 1,
+   "uiso": 0.01824
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.1885,
+    0.8675,
+    0.4266
+   ],
+   "occupancy": 1,
+   "uiso": 0.02052
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.6885,
+    0.36750000000000016,
+    0.4266
+   ],
+   "occupancy": 1,
+   "uiso": 0.02052
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.8115,
+    0.13249999999999995,
+    0.5734
+   ],
+   "occupancy": 1,
+   "uiso": 0.02052
+  },
+  {
+   "element": "O",
+   "frac": [
+    0.3115,
+    0.6325,
+    0.5734
+   ],
+   "occupancy": 1,
+   "uiso": 0.02052
+  }
+ ],
+ "spaceGroup": {
+  "number": 2,
+  "symbol": "P-1"
+ }
+}

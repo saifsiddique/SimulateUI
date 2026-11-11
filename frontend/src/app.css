@@ -1,0 +1,326 @@
+/* Theme tokens. The layout and the neutrals are strFac_app's (Crystal Viewer Lite); SimulateUI's own
+   accent is burgundy (context.md §7.MU "Design tokens"). Errors are reddish too, so an error or a
+   warning is never told by colour alone: it always carries an icon and words. */
+:root {
+  --text: #4f5566;
+  --text-h: #0d1220;
+  --muted: #7a8194;
+  --bg: #f4f6fa;
+  --surface: #ffffff;
+  --surface-2: #f0f3f8;
+  --border: #dfe3eb;
+  --border-strong: #c5ccd9;
+  --accent: #8c2438;
+  --accent-2: #c2562e;
+  --accent-soft: #f6e7ea;
+  --accent-ink: #6b1a2a;
+  /* the gradient of the title, the logo and the primary button: dark enough for white text */
+  --accent-grad-a: #7a1f33;
+  --accent-grad-b: #a83a3a;
+  --title-grad: linear-gradient(90deg, #7a1f33, #c2562e);
+  --ok: #0f7b4f;
+  --ok-soft: #e3f4ec;
+  --err: #c81e1e;
+  --err-soft: #fde8e8;
+  --warn: #8a5a00;
+  --warn-soft: #fbf1dc;
+  --shadow: 0 1px 2px rgba(16, 24, 40, 0.06), 0 2px 8px rgba(16, 24, 40, 0.05);
+  --radius: 10px;
+  --sans: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, 'Cascadia Mono', Consolas, monospace;
+
+  /* Overlay colours of the views (core/overlayColours.ts mirrors them for canvas and WebGL). They
+     are independent of the accent and readable on the white viewer background. */
+  --ov-fov: #2563eb;
+  --ov-grid: #6b7280;
+  --ov-probe: #d97706;
+  --ov-bf: #16a34a;
+  --ov-abf: #0d9488;
+  --ov-adf: #7c3aed;
+  --ov-haadf: #ea580c;
+  --ov-limit: #6b7280;
+
+  font: 15px/1.5 var(--sans);
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #a7adbb;
+    --text-h: #eef0f5;
+    --muted: #7d8394;
+    --bg: #0f1117;
+    --surface: #171a22;
+    --surface-2: #1e222c;
+    --border: #2a2f3b;
+    --border-strong: #3a4050;
+    --accent: #f08a9c;
+    --accent-2: #f4a77f;
+    --accent-soft: #3a1d25;
+    --accent-ink: #ffd5dc;
+    --title-grad: linear-gradient(90deg, #f08a9c, #f4a77f);
+    --ok: #6ee7b7;
+    --ok-soft: #10301f;
+    --err: #fca5a5;
+    --err-soft: #3b1717;
+    --warn: #fbbf24;
+    --warn-soft: #3a2e14;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 14px rgba(0, 0, 0, 0.25);
+    color-scheme: dark;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+/* ---- shared controls ---------------------------------------------------------------------- */
+
+button,
+input,
+select {
+  font: inherit;
+  color: var(--text-h);
+}
+
+button {
+  padding: 0.22rem 0.6rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  background: var(--surface);
+  cursor: pointer;
+  line-height: 1.35;
+  transition:
+    background 0.12s,
+    border-color 0.12s;
+}
+button:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+button[aria-pressed='true'],
+button.on {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+/* Hovering a pressed button keeps it pressed (the hover rule above is more specific). */
+button[aria-pressed='true']:hover:not(:disabled),
+button.on:hover:not(:disabled) {
+  background: var(--accent);
+  border-color: var(--accent);
+  filter: brightness(0.92);
+}
+/* The one call to action of a view ("Build specimen", later "Run"). */
+button.primary {
+  background: linear-gradient(135deg, var(--accent-grad-a), var(--accent-grad-b));
+  border-color: var(--accent-grad-a);
+  color: #fff;
+  font-weight: 600;
+}
+button.primary:hover:not(:disabled) {
+  background: linear-gradient(135deg, var(--accent-grad-a), var(--accent-grad-b));
+  filter: brightness(0.9);
+  color: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  button[aria-pressed='true'],
+  button.on {
+    color: #1a0b0f;
+  }
+}
+
+input[type='text'],
+input[type='number'],
+input:not([type]),
+select {
+  padding: 0.18rem 0.35rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  background: var(--surface);
+  min-width: 0;
+}
+input:focus-visible,
+select:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+input[type='checkbox'],
+input[type='range'] {
+  accent-color: var(--accent);
+}
+
+/* A card: the white panels the page is built from. */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+details > summary {
+  cursor: pointer;
+}
+
+/* The header strip of a view panel: its name and Export menu on the left, its Reset and zoom
+   buttons on the right (the same in every tab). */
+.phead {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.3rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+}
+.phead-title {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.phead-tools {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem 0.5rem;
+  margin-left: auto;
+}
+.phead-tools button {
+  padding: 0.05rem 0.5rem;
+  font-size: 0.78rem;
+}
+.phead-title button {
+  padding: 0.05rem 0.55rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+/* A ribbon of grouped controls above a view (strFac_app's toolbar). */
+.ribbon {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.35rem 0.4rem;
+  font-size: 0.84rem;
+}
+.ribbon > fieldset {
+  margin: 0;
+  padding: 0.25rem 0.85rem 0.35rem;
+  border: none;
+  border-right: 1px solid var(--border);
+  min-width: 0;
+}
+.ribbon > fieldset:last-child {
+  border-right: none;
+}
+.ribbon > fieldset:disabled {
+  opacity: 0.55;
+}
+.ribbon legend {
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 0.25rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.ribbon .ctl {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.6rem;
+}
+
+/* Segmented buttons: a row of buttons drawn as one control. */
+.seg {
+  display: inline-flex;
+}
+.seg > button {
+  border-radius: 0;
+  margin-left: -1px;
+  min-width: 2rem;
+}
+.seg > button:first-child {
+  border-radius: 6px 0 0 6px;
+  margin-left: 0;
+}
+.seg > button:last-child {
+  border-radius: 0 6px 6px 0;
+}
+.seg > button:hover:not(:disabled),
+.seg > button[aria-pressed='true'] {
+  position: relative;
+  z-index: 1;
+}
+
+/* A toggle drawn as a pill around its checkbox. */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.15rem 0.55rem 0.15rem 0.4rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  cursor: pointer;
+  user-select: none;
+}
+.chip:has(input:checked) {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+}
+.chip input {
+  margin: 0;
+}
+
+/* Keyboard hints under a view. */
+.hint {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+kbd {
+  padding: 0 0.3rem;
+  border: 1px solid var(--border-strong);
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  background: var(--surface);
+  font: 0.75rem var(--mono);
+  color: var(--text-h);
+}
+
+/* A notice line; the icon is part of the text (never colour alone). */
+.notice {
+  margin: 0;
+  padding: 0.45rem 0.7rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+.notice.warn {
+  background: var(--warn-soft);
+  color: var(--warn);
+}
+.notice.err {
+  background: var(--err-soft);
+  color: var(--err);
+}
