@@ -34,9 +34,10 @@ test('the status pill opens a compute popover; Escape and a click outside close 
   await expect(page.getByTestId('status-platform')).toContainText(/Windows|macOS|Linux/);
   // Choosing the parallel CPU shows the worker count, and the pill follows.
   await page.getByTestId('device-cpu-parallel').click();
-  await page.getByTestId('workers').fill('3');
+  // 2: CI runners have only two threads, and the field stops at the thread count.
+  await page.getByTestId('workers').fill('2');
   await page.getByTestId('workers').press('Enter');
-  await expect(pill).toHaveText('CPU × 3');
+  await expect(pill).toHaveText('CPU × 2');
   await page.getByTestId('device-cpu-single').click();
   await expect(pill).toHaveText('CPU × 1');
   await page.keyboard.press('Escape');
