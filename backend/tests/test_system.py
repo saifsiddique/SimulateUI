@@ -76,6 +76,13 @@ def test_cpu_fallback_without_cupy(monkeypatch):
         "gpu_info",
         lambda: {"cupy_installed": False, "available": False, "reason": "no cupy", "devices": []},
     )
+    # a PC (on a Mac the reason is about Apple silicon, see the test above)
+    monkeypatch.setattr(
+        hardware,
+        "platform_info",
+        lambda: {"system": "Linux", "release": "6", "machine": "x86_64", "python": "3.12",
+                 "apple_silicon": False},
+    )
     j = hardware.system_report()
     assert j["recommended"]["device"] == "cpu"
     assert "no cupy" in j["recommended"]["reason"]
